@@ -1,0 +1,21 @@
+repositories:
+  turtlebot4_bai04:
+    type: git
+    url: https://github.com/Khanhkhan1/turtlebot4_bai04.git
+    version: main
+  turtlebot4:
+    type: git
+    url: https://github.com/turtlebot/turtlebot4.git
+    version: humble
+  turtlebot4_simulator:
+    type: git
+    url: https://github.com/turtlebot/turtlebot4_simulator.git
+    version: humble
+  create3_sim:
+    type: git
+    url: https://github.com/iRobotEducation/create3_sim.git
+    version: humble
+  irobot_create_msgs:
+    type: git
+    url: https://github.com/iRobotEducation/irobot_create_msgs.git
+    version: humble

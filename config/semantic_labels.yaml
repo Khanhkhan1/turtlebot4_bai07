@@ -1,0 +1,15 @@
+# Bài 07 – semantic labels for the regions found by segment_map.
+# Each entry names the region that contains `point` (map frame, m). `aliases` are extra spoken
+# names; "khu vực <label>" is always accepted. Optional `goal: [x, y]` overrides the automatic
+# goal (the free cell farthest from obstacles near the region centre).
+regions:
+  - {label: A, name: "Phòng học",        point: [-7.0, 7.5]}
+  - {label: B, name: "Văn phòng",        point: [6.2, 7.4]}
+  - {label: C, name: "Thư viện",         point: [-8.1, 2.2]}
+  - {label: D, name: "Sảnh chính",       point: [-2.8, 2.2],  aliases: ["sảnh"]}
+  - {label: E, name: "Phòng máy",        point: [7.5, 3.5],   aliases: ["phòng máy tính"]}
+  - {label: F, name: "Hành lang",        point: [1.7, 0.3]}
+  - {label: G, name: "Phòng thí nghiệm", point: [6.7, -2.0],  aliases: ["thí nghiệm"]}
+  - {label: H, name: "Hội trường",       point: [-6.6, -4.6]}
+  - {label: I, name: "Căng tin",         point: [-0.8, -6.9], aliases: ["nhà ăn"]}
+  - {label: J, name: "Nhà kho",          point: [5.9, -7.0],  aliases: ["kho"]}

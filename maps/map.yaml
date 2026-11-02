@@ -1,0 +1,8 @@
+image: map.pgm
+mode: trinary
+resolution: 0.05
+origin: [-10.1, -10.1, 0]
+negate: 0
+occupied_thresh: 0.65
+# 0.196 (not 0.25): unknown cells (pgm 205, occupancy 0.196) stay unknown for map_server
+free_thresh: 0.196
