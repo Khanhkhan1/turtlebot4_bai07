@@ -6,6 +6,8 @@ a Vietnamese voice command is turned into text with Vosk (offline), and the robo
 named region with Nav2 (`NavigateToPose`), avoiding obstacles that are not on the map
 (`worlds/maze_obstacles.sdf`: the bài 04 maze + 4 obstacles).
 
+**Video demo:** https://drive.google.com/file/d/10A8BkOyYn-wqBQhxQcB699cY3sgc1RgO/view?usp=sharing
+
 ```
 maps/map.pgm + map.yaml --segment_map (OpenCV)--> maps/regions.yaml, regions_label.png, regions.png
                               config/semantic_labels.yaml (names) --^
